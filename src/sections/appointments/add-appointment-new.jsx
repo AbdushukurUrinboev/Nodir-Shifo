@@ -184,7 +184,7 @@ export default function FormDialog({ patientID }) {
 
     // handling print
     const handlePrint = useReactToPrint({
-        documentTitle: "El-Aziz Shifo Nur klinikasi",
+        documentTitle: "Nodir-Shifo klinikasi",
         content: () => printRef.current,
         onAfterPrint: () => {
             console.log("Document is printed");

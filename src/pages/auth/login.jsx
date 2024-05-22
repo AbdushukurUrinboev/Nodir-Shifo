@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useFormik } from 'formik';
 import axios from 'axios';
 import { base_URL } from 'src/API';
+import { Logo } from 'src/components/logo';
 
 import * as Yup from 'yup';
 import {
@@ -83,7 +84,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Login | Devias Kit
+          Login | Nodir-Shifo
         </title>
       </Head>
       <Box
@@ -106,10 +107,11 @@ const Page = () => {
           <div>
             <Stack
               spacing={1}
-              sx={{ mb: 3 }}
+              sx={{ mb: 3, alignItems: 'center' }}
             >
+                <Logo />
               <Typography variant="h4">
-                Login
+                {/* Login- */}
               </Typography>
             </Stack>
             <Tabs

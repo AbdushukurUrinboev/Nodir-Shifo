@@ -199,7 +199,7 @@ export default function FormDialog({ setNewCustVal, setNextStep, setValue }) {
 
     // handling print
     const handlePrint = useReactToPrint({
-        documentTitle: "El-Aziz Shifo Nur klinikasi",
+        documentTitle: "Nodir-Shifo Nur klinikasi",
         content: () => printRef.current,
         onAfterPrint: () => {
             console.log("Document is printed");

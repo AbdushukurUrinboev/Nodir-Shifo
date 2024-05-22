@@ -137,7 +137,7 @@ export default function AddPayment({ setNewPayVal, nextStep, setNextStep }) {
 
     // handling print
     const handlePrint = useReactToPrint({
-        documentTitle: "El-Aziz Shifo Nur klinikasi",
+        documentTitle: "Nodir-Shifo klinikasi",
         content: () => printRef.current,
         onAfterPrint: () => {
             console.log("Document is printed");
@@ -163,7 +163,7 @@ export default function AddPayment({ setNewPayVal, nextStep, setNextStep }) {
                 onClose={handleClose}>
                 <DialogTitle>{"To"}&apos;{"lov qilish"}</DialogTitle>
                 <DialogContent ref={printRef}>
-                    <h4>El-Aziz Shifo Nur klinikasi cheki</h4>
+                    <h4>Nodir-Shifo klinikasi cheki</h4>
                     <Box
                         component="form"
                         sx={{ flexGrow: 1 }}

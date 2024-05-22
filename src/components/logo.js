@@ -8,9 +8,9 @@ export const Logo = () => {
   return (
     <Image
       src="/assets/mylogo.png"
-      width={50}
-      height={30}
-      alt="Picture of the author"
+      width={160}
+      height={120}
+      alt="Picture of the author"      
     />
   );
 };

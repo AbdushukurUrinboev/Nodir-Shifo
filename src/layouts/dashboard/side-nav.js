@@ -46,7 +46,7 @@ export const SideNav = (props) => {
         }}
       >
         <Box sx={{ p: 3 }}>
-          <Box
+         {/* <Box
             component={NextLink}
             href=""
             sx={{
@@ -55,8 +55,8 @@ export const SideNav = (props) => {
               width: 32
             }}
           >
-            <Logo />
-          </Box>
+            {/* <Logo /> */}
+          {/*</Box> */}
           <Box
             sx={{
               alignItems: 'center',
@@ -74,7 +74,7 @@ export const SideNav = (props) => {
                 color="inherit"
                 variant="subtitle1"
               >
-                El AZIZ SHIFO NUR
+                Nodir-Shifo
               </Typography>
               <Typography
                 color="neutral.400"
