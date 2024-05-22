@@ -1,0 +1,658 @@
+{
+  "patients": [
+    {
+      "_id": 1,
+      "firstName": "Abdushukur",
+      "lastName": "Urinboev",
+      "patronymic": "Abdurahimovich",
+      "age": 40,
+      "phoneNumber": "+99890 633 55 99",
+      "gender": "male",
+      "region": "Fergana",
+      "district": "Fergana",
+      "address": "Fergana",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 2,
+      "firstName": "Fran",
+      "lastName": "Perez",
+      "patronymic": "Khan",
+      "age": 23,
+      "phoneNumber": "+99890 111 22 65",
+      "gender": "male",
+      "region": "Fergana",
+      "district": "Fergana",
+      "address": "Fergana",
+      "avatar": "/assets/avatars/avatar-fran-perez.png"
+    },
+    {
+      "_id": 3,
+      "firstName": "Ajay",
+      "lastName": "Devgn",
+      "patronymic": "Pauri",
+      "age": 56,
+      "phoneNumber": "+99890 546 43 32",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Maharashtra",
+      "address": "Viamu",
+      "avatar": "/assets/avatars/avatar-jie-yan-song.png"
+    },
+    {
+      "_id": 4,
+      "firstName": "Madhuri",
+      "lastName": "Dixit",
+      "patronymic": "Nene",
+      "age": 56,
+      "phoneNumber": "+99890 576 90 54",
+      "gender": "male",
+      "region": "Delhi",
+      "district": "Delhi",
+      "address": "Vidiyati",
+      "avatar": "/assets/avatars/avatar-anika-visser.png"
+    },
+    {
+      "_id": 5,
+      "firstName": "Aamir",
+      "lastName": "Khan",
+      "patronymic": "Aak",
+      "age": 48,
+      "phoneNumber": "+99890 546 34 89",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Maharashtra",
+      "address": "Juhu",
+      "avatar": "/assets/avatars/avatar-miron-vitold.png"
+    },
+    {
+      "_id": 6,
+      "firstName": "Shakhrukh",
+      "lastName": "Khan",
+      "patronymic": "Shk",
+      "age": 67,
+      "phoneNumber": "+99890 456 89 34",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Galerea",
+      "address": "Juhu",
+      "avatar": "/assets/avatars/avatar-penjani-inyene.png"
+    },
+    {
+      "_id": 7,
+      "firstName": "Puja",
+      "lastName": "Bhatt",
+      "patronymic": "Phb",
+      "age": 45,
+      "phoneNumber": "+99890 324 23 65",
+      "gender": "male",
+      "region": "Calcotta",
+      "district": "Phenix",
+      "address": "Kuichi-1",
+      "avatar": "/assets/avatars/avatar-omar-darboe.png"
+    },
+    {
+      "_id": 8,
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "patronymic": "Aak",
+      "age": 56,
+      "phoneNumber": "+99890 457 34 33",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Juhu Beach",
+      "address": "Ravina-2",
+      "avatar": "/assets/avatars/avatar-siegbert-gottfried.png"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": 1,
+      "firstName": "Abdushukur",
+      "lastName": "Urinboev",
+      "patronymic": "Abdurahimovich",
+      "age": 40,
+      "phoneNumber": "+99890 633 55 99",
+      "gender": "male",
+      "region": "Fergana",
+      "district": "Fergana",
+      "address": "Fergana",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 2,
+      "firstName": "Fran",
+      "lastName": "Perez",
+      "patronymic": "Khan",
+      "age": 23,
+      "phoneNumber": "+99890 111 22 65",
+      "gender": "male",
+      "region": "Fergana",
+      "district": "Fergana",
+      "address": "Fergana",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-fran-perez.png"
+    },
+    {
+      "_id": 3,
+      "firstName": "Ajay",
+      "lastName": "Devgn",
+      "patronymic": "Pauri",
+      "age": 56,
+      "phoneNumber": "+99890 546 43 32",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Maharashtra",
+      "address": "Viamu",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-jie-yan-song.png"
+    },
+    {
+      "_id": 4,
+      "firstName": "Madhuri",
+      "lastName": "Dixit",
+      "patronymic": "Nene",
+      "age": 56,
+      "phoneNumber": "+99890 576 90 54",
+      "gender": "male",
+      "region": "Delhi",
+      "district": "Delhi",
+      "address": "Vidiyati",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-anika-visser.png"
+    },
+    {
+      "_id": 5,
+      "firstName": "Aamir",
+      "lastName": "Khan",
+      "patronymic": "Aak",
+      "age": 48,
+      "phoneNumber": "+99890 546 34 89",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Maharashtra",
+      "address": "Juhu",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-miron-vitold.png"
+    },
+    {
+      "_id": 6,
+      "firstName": "Shakhrukh",
+      "lastName": "Khan",
+      "patronymic": "Shk",
+      "age": 67,
+      "phoneNumber": "+99890 456 89 34",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Galerea",
+      "address": "Juhu",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-penjani-inyene.png"
+    },
+    {
+      "_id": 7,
+      "firstName": "Puja",
+      "lastName": "Bhatt",
+      "patronymic": "Phb",
+      "age": 45,
+      "phoneNumber": "+99890 324 23 65",
+      "gender": "male",
+      "region": "Calcotta",
+      "district": "Phenix",
+      "address": "Kuichi-1",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-omar-darboe.png"
+    },
+    {
+      "_id": 8,
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "patronymic": "Aak",
+      "age": 56,
+      "phoneNumber": "+99890 457 34 33",
+      "gender": "male",
+      "region": "Mumbai",
+      "district": "Juhu Beach",
+      "address": "Ravina-2",
+      "speciality": "Ko'z pediatri",
+      "roomNumber": 6,
+      "avatar": "/assets/avatars/avatar-siegbert-gottfried.png"
+    }
+  ],
+  "appointments": [
+    {
+      "_id": 1,
+      "selectedPatient": "Abdushukur Urinboev",
+      "selectedDoctor": "Mark Clark",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 200000
+    },
+    {
+      "_id": 2,
+      "selectedPatient": "Tom Cruiz",
+      "selectedDoctor": "mr.Alban",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 100000
+    },
+    {
+      "_id": 3,
+      "selectedPatient": "Boboyev",
+      "selectedDoctor": "Alisher",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 300000
+    },
+    {
+      "_id": 4,
+      "selectedPatient": "Olimjonov",
+      "selectedDoctor": "Dolimjon",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 150000
+    },
+    {
+      "_id": 5,
+      "selectedPatient": "Atabekov",
+      "selectedDoctor": "Otabek",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 300000
+    },
+    {
+      "_id": 6,
+      "selectedPatient": "Olimov Olim",
+      "selectedDoctor": "Karayev Sherali",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 100000
+    },
+    {
+      "_id": 7,
+      "selectedPatient": "Aamir Khan",
+      "selectedDoctor": "mr.Bean",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Statsionar",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 400000
+    },
+    {
+      "_id": 8,
+      "selectedPatient": "Madhuri Dixit",
+      "selectedDoctor": "Anil Kapur",
+      "selectedDate": "31/08/2023",
+      "selectedTime": "09:20",
+      "typeOfDiseas": "Operatsiya",
+      "selectedDiseas": "loremipsum",
+      "selectedPrice": 250000
+    }
+  ],
+  "payments": [
+    {
+      "_id": 1,
+      "firstName": "Abdushukur",
+      "lastName": "Urinboev",
+      "patronymic": "Abdurahimovich",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 400000
+        }
+      ],
+      "overallPrice": 300000,
+      "paymentType": "Plastik",
+      "phoneNumber": "+99890 633 55 99",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 2,
+      "firstName": "Fran",
+      "lastName": "Perez",
+      "patronymic": "Khan",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 400000,
+      "paymentType": "Naqd",
+      "phoneNumber": "+99890 111 22 65",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 3,
+      "firstName": "Ajay",
+      "lastName": "Devgn",
+      "patronymic": "Pauri",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 800000,
+      "paymentType": "Click",
+      "phoneNumber": "+99890 546 43 32",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 4,
+      "firstName": "Madhuri",
+      "lastName": "Dixit",
+      "patronymic": "Nene",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 600000,
+      "paymentType": "Click",
+      "phoneNumber": "+99890 576 90 54",    
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 5,
+      "firstName": "Aamir",
+      "lastName": "Khan",
+      "patronymic": "Aak",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 900000,
+      "paymentType": "Naqd",
+      "phoneNumber": "+99890 546 34 89",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 6,
+      "firstName": "Shakhrukh",
+      "lastName": "Khan",
+      "patronymic": "Shk",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 500000,
+      "paymentType": "Naqd",
+      "phoneNumber": "+99890 456 89 34",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 7,
+      "firstName": "Puja",
+      "lastName": "Bhatt",
+      "patronymic": "Phb",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 300000,
+      "paymentType": "Plastik",
+      "phoneNumber": "+99890 324 23 65",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    },
+    {
+      "_id": 8,
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "patronymic": "Aak",
+      "disease": [
+        {
+          "diseaseName": "Lorem",
+          "diseasePrice": 200000
+        }
+      ],
+      "overallPrice": 500000,
+      "paymentType": "Plastik",
+      "phoneNumber": "+99890 457 34 33",
+      "avatar": "/assets/avatars/avatar-carson-darrin.png"
+    }
+  ],
+  "departments": [
+    {
+      "_id": 1,
+      "title": "Dropbox",
+      "createdAt": "27/03/2019",
+      "downloads": "594",
+      "logo": "/assets/logos/logo-dropbox.png",
+      "description": "Dropbox is a file hosting service that offers cloud storage, file synchronization, a personal cloud."
+    },
+    {
+      "_id": 2,
+      "title": "Medium Corporation",
+      "createdAt": "31/03/2019",
+      "downloads": "234",
+      "logo": "/assets/logos/logo-medium.png",
+      "description": "Medium is an online publishing platform developed by Evan Williams, and launched in August 2012."
+    },
+    {
+      "_id": 3,
+      "title": "Medium Corporation",
+      "createdAt": "03/04/2019",
+      "downloads": "124",
+      "logo": "/assets/logos/logo-slack.png",
+      "description": "Slack is a cloud-based set of team collaboration tools and services, founded by Stewart Butterfield"
+    },
+    {
+      "_id": 4,
+      "title": "Lyft",
+      "createdAt": "12/12/2018",
+      "downloads": "657",
+      "logo": "/assets/logos/logo-lyft.png",
+      "description": "Lyft is an on-demand transportation company based in San Francisco, California."
+    },
+    {
+      "_id": 5,
+      "title": "GitHub",
+      "createdAt": "04/09/2019",
+      "downloads": "835",
+      "logo": "/assets/logos/logo-github.png",
+      "description": "GitHub is a web-based hosting service for version control of code using Git."
+    },
+    {
+      "_id": 6,
+      "title": "Squarespace",
+      "createdAt": "11/12/2019",
+      "downloads": "345",
+      "logo": "/assets/logos/logo-squarespace.png",
+      "description": "Squarespace provides software as a service for website building and hosting. Headquartered in NYC."
+    }
+  ],
+  "diseases": [
+    {
+      "_id": 1,
+      "title": "Statsionar",
+      "description": "Врач маслахати (кўз тубини аниқлаш, кўз ўткирлигини аниқлаш)",
+      "price": 100000
+    },
+    {
+      "_id": 2,
+      "title": "Operatsiya",
+      "description": "Ko'zni operatsiya qilish",
+      "price": 40000
+    },
+    {
+      "_id": 3,
+      "title": "Statsionar",
+      "description": "Кўз ички босимини аниқлаш (Маклакова усули) ёш: 35+",
+      "price": 30000
+    },
+    {
+      "_id": 4,
+      "title": "Statsionar",
+      "description": "Пневмотонометрия (Контактсиз тонометрия) ёш: 35+",
+      "price": 35000
+    },
+    {
+      "_id": 5,
+      "title": "Statsionar",
+      "description": "Афторефрактометрия",
+      "price": 30000
+    },
+    {
+      "_id": 6,
+      "title": "Statsionar",
+      "description": "Кўз олмасини УЗИ текшируви А скан",
+      "price": 50000
+    },
+    {
+      "_id": 7,
+      "title": "Statsionar",
+      "description": "Кўз олмасини УЗИ текшируви Б скан",
+      "price": 50000
+    },
+    {
+      "_id": 8,
+      "title": "Statsionar",
+      "description": "Периметрия",
+      "price": 20000
+    },
+    {
+      "_id": 9,
+      "title": "Statsionar",
+      "description": "П/Б инекциялар (1 дона) ",
+      "price": 35000
+    },
+    {
+      "_id": 10,
+      "title": "Statsionar",
+      "description": "Ёш каналини ювиш",
+      "price": 150000
+    },
+    {
+      "_id": 11,
+      "title": "Statsionar",
+      "description": "Фундус камера 1 дона кўз",
+      "price": 40000
+    }
+  ],
+  "doctorsPage": [
+    {
+      "_id": 1,
+      "firstName": "Abdushukur",
+      "lastName": "Urinboev",
+      "patronymic": "Abdurahimovich",
+      "roomNumber": 6
+    },
+    {
+      "_id": 2,
+      "firstName": "Fran",
+      "lastName": "Perez",
+      "patronymic": "Khan",
+      "roomNumber": 8
+    },
+    {
+      "_id": 3,
+      "firstName": "Ajay",
+      "lastName": "Devgn",
+      "patronymic": "Pauri",
+      "roomNumber": 5
+    },
+    {
+      "_id": 4,
+      "firstName": "Madhuri",
+      "lastName": "Dixit",
+      "patronymic": "Nene",
+      "roomNumber": 1
+    },
+    {
+      "_id": 5,
+      "firstName": "Aamir",
+      "lastName": "Khan",
+      "patronymic": "Aak",
+      "roomNumber": 7
+    },
+    {
+      "_id": 6,
+      "firstName": "Shakhrukh",
+      "lastName": "Khan",
+      "patronymic": "Shk",
+      "roomNumber": 9
+    },
+    {
+      "_id": 7,
+      "firstName": "Puja",
+      "lastName": "Bhatt",
+      "patronymic": "Phb",
+      "roomNumber": 2
+    },
+    {
+      "_id": 8,
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "patronymic": "Aak",
+      "roomNumber": 4
+    }
+  ],
+  "account": [
+    {
+      "_id": 1,
+      "sana": "12.06.2023",
+      "diseaseName": "Ko'z tubini aniqlash",
+      "diseaseExplanation": "lorem"
+     
+    },
+    {
+      "_id": 2,
+      "sana": "23.06.2023",
+      "diseaseName": "Tashhis qo'yish",
+      "diseaseExplanation": "lorem"
+    },
+    {
+      "_id": 3,
+      "sana": "3.10.2023",
+      "diseaseName": "Operatsiyaga tayorlash",
+      "diseaseExplanation": "Analizlar topshirdi"      
+    },
+    {
+      "_id": 4,
+      "sana": "4.06.2023",
+      "diseaseName": "lorem",
+      "diseaseExplanation": "lorem"
+     
+    },
+    {
+      "_id": 5,
+      "sana": "12.09.2023",
+      "diseaseName": "Tashhis qo'yish",
+      "diseaseExplanation": "lorem"
+    },
+    {
+      "_id": 6,
+      "sana": "30.09.2023",
+      "diseaseName": "Operatsiyaga tayorlash",
+      "diseaseExplanation": "Analizlar topshirdi"      
+    }
+  ]
+}
