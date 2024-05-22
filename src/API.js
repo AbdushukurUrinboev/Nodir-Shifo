@@ -1,4 +1,4 @@
-export const base = "https://eye-clinic-server.vercel.app"
+export const base = "https://nodir-shifo-server.vercel.app/";
 export const base_URL = base + "/api"
 
 export const PATIENTS_URL = `${base_URL}/patients`; // mijozlar
